@@ -2,13 +2,14 @@
 package Login;
 
 import java.util.Scanner;
+
 import database.layerMySql;
 
 
 public class mainMenu implements menu {
 
-    String Id,pass,type;
-    Scanner scan = new Scanner(System.in);
+    String Id, pass, type;
+    //Scanner scan = new Scanner(System.in);
     layerMySql sql = new layerMySql();
 
     public mainMenu() {
@@ -33,7 +34,7 @@ public class mainMenu implements menu {
             if (type == null) {
                 System.out.println("Invalid User Credentials , Try Again");
                 printMenu();
-            }else if (type != null) {
+            } else if (type != null) {
                 makeMenuSelection();
             }
         } catch (Exception e) {
@@ -43,18 +44,26 @@ public class mainMenu implements menu {
 
     @Override
     public void makeMenuSelection() {
-        System.out.println("make menu selection  -> " + type);
-        if (type == null) {
+        //System.out.println("make menu selection  -> " + type);
+
+        if (type == null) {// if user can't login
             System.out.println("Your ID or Password is in correct please try again...");
             printMenu();
+
         } else if (type.equals("s")) {// This is will call student Menu
+
+            studentMenu menuStudent = new studentMenu();
 
         } else if (type.equals("t")) {// This is will call teacher Menu
 
+            teacherMenu menuTeacher = new teacherMenu();
+
         } else if (type.equals("a")) {// This is will call admin Menu
-            
-        } 
-        
+
+            adminMenu menuAdmin = new adminMenu();
+
+        }
+
     }
 
     public String checkID() {

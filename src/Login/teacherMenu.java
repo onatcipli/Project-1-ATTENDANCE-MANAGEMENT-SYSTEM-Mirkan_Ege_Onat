@@ -1,26 +1,23 @@
 package Login;
 
+public class teacherMenu implements menu {
 
 
-public class studentMenu implements menu {
-
-
-    public studentMenu() {
+    public teacherMenu() {
 
         printMenu();
 
     }
 
-    //Student menu which is proceed by mainMenu function
     @Override
-    public void printMenu() {
-        System.out.println("\t\t*** Student Menu ***");
-        System.out.println("Please chose your action from the menu!");
-        System.out.println("1-)Add an student");
-        System.out.println("2-)See grades and scores");
-        System.out.println("3-)Check fee status");
-        System.out.println("4-)Check absentism");
 
+    public void printMenu() {
+        System.out.println("\t\t\t Teacher Menu");
+        System.out.println("Please chose your action from the menu!");
+        System.out.println("1-)See the students grades and edit");
+        System.out.println("2-)Edit the absentism");
+        System.out.println("3-)Check fee status of a student");
+        System.out.println("4-)Check the absentism");
     }
 
     @Override
@@ -28,7 +25,6 @@ public class studentMenu implements menu {
         int menuInput = -1;
 
         switch (menuInput) {
-
             case 1:
                 break;
             case 2:
@@ -41,5 +37,4 @@ public class studentMenu implements menu {
         }
 
     }
-
 }

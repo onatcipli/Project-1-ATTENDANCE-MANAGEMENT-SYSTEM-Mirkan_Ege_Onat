@@ -37,11 +37,32 @@ public class layerMySql {
         }
     }
 
+    // return type is string to get info about user's type
+    public String isValid(String id, String password) throws Exception {
+        checkAndConnect();
+
+        String query = "select * from login where ID='" + id + "' and pass='" + password + "'";
+        PreparedStatement prepareStatement = null;
+        ResultSet rs = null;
+
+        try {
+            prepareStatement = conn.prepareStatement(query);
+            rs = prepareStatement.executeQuery();
+            if (rs.next()) {// if ıd an pass is correct
+                System.out.println(rs.getString("type"));
+                return rs.getString("type");
+                //We are returning a type for select the menu
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
 
     /*
-     *   This queries for student class
-     */
-
     //this is for create new lecturers to lecturer table
     public void insertToTheLecturer(String Name, String Id) {
         checkAndConnect();
@@ -84,33 +105,10 @@ public class layerMySql {
 
     }
 
-    // return type is string to get info about user's type
-    public String isValid(String id, String password) throws Exception {
-        checkAndConnect();
-
-        String query = "select * from login where ID='" + id + "' and pass='" + password + "'";
-        PreparedStatement prepareStatement = null;
-        ResultSet rs = null;
-
-        try {
-            prepareStatement = conn.prepareStatement(query);
-            rs = prepareStatement.executeQuery();
-            if (rs.next()) {// if ıd an pass is correct
-                System.out.println(rs.getString("type"));
-                return rs.getString("type");
-                //We are returning a type for select the menu
-            }
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return null;
-    }
 
     public void List() {
         checkAndConnect();
 
     }
-
+    */
 }
