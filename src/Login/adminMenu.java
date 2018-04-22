@@ -95,10 +95,10 @@ public class adminMenu implements menu {
 
     void addTeacher() {
         String[] teacherInfo = new String[2];
-        System.out.println("For adding Student you should give some informations");
+        System.out.println("For adding Lecturer you should give some informations");
         System.out.print("Name        : ");
         teacherInfo[0] = scan.nextLine();
-        System.out.print("Student ID  : ");
+        System.out.print("Teacher ID  : ");
         teacherInfo[1] = scan.nextLine();
 
         sqlAdmin.insertTeacher(teacherInfo);
