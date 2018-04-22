@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca38c8e-453c-4469-b562-9f16309be261" name="Default" comment="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)">
+    <list default="true" id="0ca38c8e-453c-4469-b562-9f16309be261" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/adminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/adminMenu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -139,12 +138,16 @@
       <file leaf-file-name="adminMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Login/adminMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1615">
+              <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
               <folding>
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
                 <element signature="method#printMenu#0;class#adminMenu#0" />
-                <element signature="method#makeMenuSelection#0;class#adminMenu#0" />
-                <element signature="method#addTeacher#0;class#adminMenu#0" />
+                <element signature="e#2971#2972#0" expanded="true" />
+                <element signature="e#3009#3010#0" expanded="true" />
+                <element signature="e#3419#3420#0" expanded="true" />
+                <element signature="e#3457#3458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -381,7 +384,7 @@
       <workItem from="1524324710279" duration="1338000" />
       <workItem from="1524381302191" duration="11492000" />
       <workItem from="1524394794329" duration="1094000" />
-      <workItem from="1524398504213" duration="2416000" />
+      <workItem from="1524398504213" duration="2685000" />
     </task>
     <task id="LOCAL-00001" summary="try to commit on inteliji">
       <created>1524305844063</created>
@@ -404,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524395235672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Try something">
+      <created>1524402056196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524402056196</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48571000" />
+    <option name="totallyTimeSpent" value="48840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,6 +445,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -448,7 +459,6 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="3" sideWeight="0.5007949" side_tool="true" weight="0.108208954" />
       <window_info anchor="right" id="Flutter Inspector" order="4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32897604" />
@@ -505,7 +515,8 @@
     <MESSAGE value="try to commit on inteliji" />
     <MESSAGE value="try 2 for workspace.xml file" />
     <MESSAGE value="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)" />
+    <MESSAGE value="Try something" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try something" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,17 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="method#connect#0;class#layerMySql#0" />
-            <element signature="method#checkAndConnect#0;class#layerMySql#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Login/lecturerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -867,6 +867,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Database/lecturerSql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -892,6 +895,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="method#connect#0;class#layerMySql#0" />
+            <element signature="method#checkAndConnect#0;class#layerMySql#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -900,17 +914,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Login/adminMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="1615">
+          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
           <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
             <element signature="method#printMenu#0;class#adminMenu#0" />
-            <element signature="method#makeMenuSelection#0;class#adminMenu#0" />
-            <element signature="method#addTeacher#0;class#adminMenu#0" />
+            <element signature="e#2971#2972#0" expanded="true" />
+            <element signature="e#3009#3010#0" expanded="true" />
+            <element signature="e#3419#3420#0" expanded="true" />
+            <element signature="e#3457#3458#0" expanded="true" />
           </folding>
         </state>
       </provider>
