@@ -3,6 +3,8 @@ package Login;
 import Database.*;
 
 public class adminMenu implements menu {
+    //edit alittle bit
+    //git remote https://github.com/serhatuzunbayir/Project-1-ATTENDANCE-MANAGEMENT-SYSTEM-Mirkan_Ege_Onat.git --add --push origin https://github.com/serhatuzunbayir/Project-1-ATTENDANCE-MANAGEMENT-SYSTEM-Mirkan_Ege_Onat.git
 
     adminSql sqlAdmin = new adminSql();
 

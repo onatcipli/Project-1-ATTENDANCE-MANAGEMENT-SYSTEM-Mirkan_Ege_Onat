@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca38c8e-453c-4469-b562-9f16309be261" name="Default" comment="Editing admin functions and adding some lecturer">
-      <change afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Database/lecturerSql.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/lecturerMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/lecturerSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Login/lecturerMenu.java" afterDir="false" />
+    <list default="true" id="0ca38c8e-453c-4469-b562-9f16309be261" name="Default" comment="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/adminMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/adminMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/mainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/mainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/studentMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/studentMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/teacherMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/database/adminSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/database/adminSql.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/database/layerMySql.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/database/layerMySql.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login/adminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/adminMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/mainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/mainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/studentMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/studentMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/teacherMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/adminSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/adminSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/layerMySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/layerMySql.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,18 +89,35 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="attendanceManagement" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lecturerSql.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lecturerSql.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Database/lecturerSql.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="method#printAllAbsWithCourseID#0;class#lecturerSql#0" />
                 <element signature="method#printAllCoursesAbs#0;class#lecturerSql#0" />
                 <element signature="method#editAbsentism#0;class#lecturerSql#0" />
                 <element signature="method#feeStatus#0;class#lecturerSql#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <element signature="method#studentMenu#0;class#studentMenu#0" />
+                <element signature="method#printMenu#0;class#studentMenu#0" />
+                <element signature="method#makeMenuSelection#0;class#studentMenu#0" />
               </folding>
             </state>
           </provider>
@@ -133,6 +132,30 @@
                 <element signature="method#connect#0;class#layerMySql#0" />
                 <element signature="method#checkAndConnect#0;class#layerMySql#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminMenu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Login/adminMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="method#printMenu#0;class#adminMenu#0" />
+                <element signature="method#makeMenuSelection#0;class#adminMenu#0" />
+                <element signature="method#addTeacher#0;class#adminMenu#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -179,6 +202,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testingBranch" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -203,13 +231,13 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/console_11.sql" />
         <option value="$PROJECT_DIR$/src/database/adminSql.java" />
-        <option value="$PROJECT_DIR$/src/Login/adminMenu.java" />
         <option value="$PROJECT_DIR$/src/Login/menu.java" />
         <option value="$PROJECT_DIR$/src/Login/studentMenu.java" />
         <option value="$PROJECT_DIR$/src/Database/adminSql.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/console_12.sql" />
         <option value="$PROJECT_DIR$/src/Database/lecturerSql.java" />
         <option value="$PROJECT_DIR$/src/Login/lecturerMenu.java" />
+        <option value="$PROJECT_DIR$/src/Login/adminMenu.java" />
       </list>
     </option>
   </component>
@@ -326,6 +354,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +380,8 @@
       <workItem from="1524305987432" duration="9855000" />
       <workItem from="1524324710279" duration="1338000" />
       <workItem from="1524381302191" duration="11492000" />
-      <workItem from="1524394794329" duration="240000" />
+      <workItem from="1524394794329" duration="1094000" />
+      <workItem from="1524398504213" duration="2416000" />
     </task>
     <task id="LOCAL-00001" summary="try to commit on inteliji">
       <created>1524305844063</created>
@@ -366,11 +397,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524306039502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)">
+      <created>1524395235672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524395235672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45301000" />
+    <option name="totallyTimeSpent" value="48571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,15 +438,15 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3148148" />
       <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3148148" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3148148" />
       <window_info anchor="bottom" id="Floobits" order="12" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108208954" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.10927505" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5007949" side_tool="true" weight="0.108208954" />
       <window_info anchor="right" id="Flutter Inspector" order="4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,6 +461,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -456,7 +504,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try to commit on inteliji" />
     <MESSAGE value="try 2 for workspace.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="try 2 for workspace.xml file" />
+    <MESSAGE value="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editing admin functions and adding some lecturer functions(Admin interface and functions Working fully)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,20 +513,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/schema/attendancemanagement/table/absentism">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/User/lecturer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -717,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,18 +779,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="method#studentMenu#0;class#studentMenu#0" />
-            <element signature="method#printMenu#0;class#studentMenu#0" />
-            <element signature="method#makeMenuSelection#0;class#studentMenu#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,19 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login/adminMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="method#printMenu#0;class#adminMenu#0" />
-            <element signature="method#makeMenuSelection#0;class#adminMenu#0" />
-            <element signature="method#addStundent#0;class#adminMenu#0" />
-            <element signature="method#addTeacher#0;class#adminMenu#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -863,12 +870,47 @@
     <entry file="file://$PROJECT_DIR$/src/Database/lecturerSql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="method#printAllAbsWithCourseID#0;class#lecturerSql#0" />
             <element signature="method#printAllCoursesAbs#0;class#lecturerSql#0" />
             <element signature="method#editAbsentism#0;class#lecturerSql#0" />
             <element signature="method#feeStatus#0;class#lecturerSql#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="method#studentMenu#0;class#studentMenu#0" />
+            <element signature="method#printMenu#0;class#studentMenu#0" />
+            <element signature="method#makeMenuSelection#0;class#studentMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/adminMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="method#printMenu#0;class#adminMenu#0" />
+            <element signature="method#makeMenuSelection#0;class#adminMenu#0" />
+            <element signature="method#addTeacher#0;class#adminMenu#0" />
           </folding>
         </state>
       </provider>
