@@ -1,6 +1,4 @@
 import Login.*;
-import database.*;
-import database.layerMySql;
 
 public class Main {
 

@@ -1,9 +1,7 @@
 
 package Login;
 
-import java.util.Scanner;
-
-import database.layerMySql;
+import Database.layerMySql;
 
 
 public class mainMenu implements menu {
@@ -56,7 +54,7 @@ public class mainMenu implements menu {
 
         } else if (type.equals("t")) {// This is will call teacher Menu
 
-            teacherMenu menuTeacher = new teacherMenu();
+            lecturerMenu menuTeacher = new lecturerMenu();
 
         } else if (type.equals("a")) {// This is will call admin Menu
 

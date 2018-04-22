@@ -1,4 +1,4 @@
-package database;
+package Database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,9 +13,9 @@ public class layerMySql {
     String user = "root";
     String databasePassword = "1234tamam";
 
-    //This function is for connecting to the database
+    //This function is for connecting to the Database
     public Connection connect() {
-        //System.out.println("Trying to connect to the database !!!");
+        //System.out.println("Trying to connect to the Database !!!");
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             //System.out.println("The connection is OKEY");
@@ -29,7 +29,7 @@ public class layerMySql {
         return conn;
     }
 
-    //This function check the database is connect or not if its not call connect func
+    //This function check the Database is connect or not if its not call connect func
     public void checkAndConnect() {
         if (conn == null) {
             //System.out.println("Connection Error, Trying again....");

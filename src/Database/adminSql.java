@@ -1,7 +1,5 @@
-package database;
+package Database;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
@@ -11,7 +9,7 @@ public class adminSql extends layerMySql {
         super.checkAndConnect();
     }
 
-    public void insertStundent(String[] course) {
+    public void insertStudent(String[] course) {
         checkAndConnect();
 
         try {
@@ -20,9 +18,8 @@ public class adminSql extends layerMySql {
             PreparedStatement stmt = conn.prepareStatement(query);
 
 
-
-            for (int i = 0; i < 11 ; i++) {
-                stmt.setString(1+i, course[i]);
+            for (int i = 0; i < 11; i++) {
+                stmt.setString(1 + i, course[i]);
             }
 
             stmt.execute();
@@ -38,18 +35,20 @@ public class adminSql extends layerMySql {
             PreparedStatement stmt = conn.prepareStatement(query);
             ResultSet rs = stmt.executeQuery(query);
 
+            int stdCounter = 1;
             while (rs.next()) {
-                System.out.print(rs.getString(1)+" ");
-                System.out.print(rs.getString(2)+" ");
-                System.out.print(rs.getString(3)+" ");
-                System.out.print(rs.getString(4)+" ");
-                System.out.print(rs.getString(5)+" ");
-                System.out.print(rs.getString(6)+" ");
-                System.out.print(rs.getString(7)+" ");
-                System.out.print(rs.getString(8)+" ");
-                System.out.print(rs.getString(9)+" ");
-                System.out.print(rs.getString(10)+" ");
-                System.out.println(rs.getString(11));
+                System.out.println((stdCounter++) + ".\t\t||Student||");
+                System.out.println("ID          : " + rs.getString(1) + "\t");
+                System.out.println("Name        : " + rs.getString(2) + "\t");
+                System.out.println("Fee Status  : " + rs.getString(3) + "\t");
+                System.out.println("CourseID 1  : " + rs.getString(4) + "\t");
+                System.out.println("CourseID 2  : " + rs.getString(5) + "\t");
+                System.out.println("CourseID 3  : " + rs.getString(6) + "\t");
+                System.out.println("CourseID 4  : " + rs.getString(7) + "\t");
+                System.out.println("CourseID 5  : " + rs.getString(8) + "\t");
+                System.out.println("CourseID 6  : " + rs.getString(9) + "\t");
+                System.out.println("CourseID 7  : " + rs.getString(10) + "\t");
+                System.out.println("CourseID 8  : " + rs.getString(11) + "\n");
             }
 
             stmt.execute();
@@ -68,8 +67,8 @@ public class adminSql extends layerMySql {
 
             PreparedStatement stmt = conn.prepareStatement(query);
 
-            for (int i = 0; i < teacher.length ; i++) {
-                stmt.setString(1+i, teacher[i]);
+            for (int i = 0; i < teacher.length; i++) {
+                stmt.setString(1 + i, teacher[i]);
             }
 
             stmt.execute();
@@ -77,7 +76,6 @@ public class adminSql extends layerMySql {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
 
 
     }
@@ -88,9 +86,11 @@ public class adminSql extends layerMySql {
             PreparedStatement stmt = conn.prepareStatement(query);
             ResultSet rs = stmt.executeQuery(query);
 
+            int teacherCounter = 1;
             while (rs.next()) {
-                System.out.print(rs.getString(1)+" ");
-                System.out.println(rs.getString(2));
+                System.out.println((teacherCounter++) + ".\t\t||Teacher||");
+                System.out.println("Name   : " + rs.getString(1) + " ");
+                System.out.println("ID     : " + rs.getString(2) + "\n");
             }
 
             stmt.execute();
@@ -101,8 +101,6 @@ public class adminSql extends layerMySql {
 
 
     }
-
-
 
 
 }

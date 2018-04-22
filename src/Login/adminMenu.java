@@ -1,8 +1,8 @@
 package Login;
 
-import database.*;
+import Database.*;
 
-public class adminMenu implements menu{
+public class adminMenu implements menu {
 
     adminSql sqlAdmin = new adminSql();
 
@@ -31,7 +31,7 @@ public class adminMenu implements menu{
         scan.nextLine();
         switch (menuAct) {
             case 1:
-                addStundent();
+                addStudent();
                 printMenu();
                 break;
             case 2:
@@ -56,22 +56,33 @@ public class adminMenu implements menu{
 
     }
 
-    void addStundent() {
+    void addStudent() {
         String[] infoForStudents = new String[11];
-        System.out.println("For adding stundent you should give some informations");
-        System.out.print("Student ID  : ");     infoForStudents[0] = scan.nextLine();
-        System.out.print("Name        : ");     infoForStudents[1] = scan.nextLine();
-        System.out.print("Fee status  : ");     infoForStudents[2] = scan.nextLine();
-        System.out.print("Course 1    : ");     infoForStudents[3] = scan.nextLine();
-        System.out.print("Course 2    : ");     infoForStudents[4] = scan.nextLine();
-        System.out.print("Course 3    : ");     infoForStudents[5] = scan.nextLine();
-        System.out.print("Course 4    : ");     infoForStudents[6] = scan.nextLine();
-        System.out.print("Course 5    : ");     infoForStudents[7] = scan.nextLine();
-        System.out.print("Course 6    : ");     infoForStudents[8] = scan.nextLine();
-        System.out.print("Course 7    : ");     infoForStudents[9] = scan.nextLine();
-        System.out.print("Course 8    : ");     infoForStudents[10] = scan.nextLine();
+        System.out.println("For adding Student you should give some informations");
+        System.out.print("Student ID  : ");
+        infoForStudents[0] = scan.nextLine();
+        System.out.print("Name        : ");
+        infoForStudents[1] = scan.nextLine();
+        System.out.print("Fee status  : ");
+        infoForStudents[2] = scan.nextLine();
+        System.out.print("Course 1    : ");
+        infoForStudents[3] = scan.nextLine();
+        System.out.print("Course 2    : ");
+        infoForStudents[4] = scan.nextLine();
+        System.out.print("Course 3    : ");
+        infoForStudents[5] = scan.nextLine();
+        System.out.print("Course 4    : ");
+        infoForStudents[6] = scan.nextLine();
+        System.out.print("Course 5    : ");
+        infoForStudents[7] = scan.nextLine();
+        System.out.print("Course 6    : ");
+        infoForStudents[8] = scan.nextLine();
+        System.out.print("Course 7    : ");
+        infoForStudents[9] = scan.nextLine();
+        System.out.print("Course 8    : ");
+        infoForStudents[10] = scan.nextLine();
 
-        sqlAdmin.insertStundent(infoForStudents);
+        sqlAdmin.insertStudent(infoForStudents);
 
 
     }
@@ -82,9 +93,11 @@ public class adminMenu implements menu{
 
     void addTeacher() {
         String[] teacherInfo = new String[2];
-        System.out.println("For adding stundent you should give some informations");
-        System.out.print("Name        : ");     teacherInfo[0] = scan.nextLine();
-        System.out.print("Student ID  : ");     teacherInfo[1] = scan.nextLine();
+        System.out.println("For adding Student you should give some informations");
+        System.out.print("Name        : ");
+        teacherInfo[0] = scan.nextLine();
+        System.out.print("Student ID  : ");
+        teacherInfo[1] = scan.nextLine();
 
         sqlAdmin.insertTeacher(teacherInfo);
     }
