@@ -44,15 +44,16 @@ public class lecturerMenu implements menu {
                 seeFeeStatus();
                 printMenu();
                 break;
-/*
             case 4:
                 System.out.println("Do you want to see All absentism and Student ID\nif yes enter 1 if no press 0");
-                int selection=scan.nextInt();scan.nextLine();
-                if (selection==1) { absentismAscCourseId();}
+                int selection = scan.nextInt();
+                scan.nextLine();
+                if (selection == 1) {
+                    absentismAscCourseId();
+                }
                 editAbsentism();
                 printMenu();
                 break;
-*/
             default:
                 System.out.println("There was a problem please make a selection again");
                 printMenu();
@@ -83,7 +84,7 @@ public class lecturerMenu implements menu {
         System.out.println("Please enter the Student ID which you want to change him/her absentism : ");
         String selectedStudent = scan.nextLine();
         System.out.println("Please enter the value of absentism : ");
-        int changedAbs = scan.nextInt();
+        String changedAbs = scan.nextLine();
 
 
         sqlLecturer.editAbsentism(selectedStudent, selectedCourse.toUpperCase(), changedAbs);

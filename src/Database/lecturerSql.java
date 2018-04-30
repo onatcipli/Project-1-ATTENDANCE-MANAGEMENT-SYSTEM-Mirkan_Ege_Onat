@@ -60,22 +60,27 @@ public class lecturerSql extends layerMySql {
 
     }
 
-    public void editAbsentism(String stdId, String courseId, int changeAbs) {
+    public void editAbsentism(String stdId, String courseId, String changeAbs) {
         checkAndConnect();
 
-        String query1 = "select Abs from absentism where StudentID='" + courseId + "'";
+        //String query1 = "select Abs from absentism where StudentID='" + courseId + "'";
         /*String query = "update absentism\n" +
                 "set Abs ='" + changeAbs + "'" +
                 "where StudentID ='" + stdId + "' and CourseID ='" + courseId + "'";
         */
-        String query = "update absentism" +
-                "set Abs = '" + changeAbs + "'" +
-                "where StudentID = 2018001 and CourseID = 'SE 311' ";
+        //String query = "update absentism set Abs = '" + changeAbs + "'" +
+        //       "where StudentID = 2018001 and CourseID = 'SE 311' ";
+
+        String query = "update absentism set Abs = ? where StudentID = ? and CourseID = ? ";
 
 
         try {
-            Statement stmt = conn.createStatement();
-            stmt.executeQuery(query);
+            PreparedStatement stmt = conn.prepareStatement(query);
+
+            stmt.setString(1, changeAbs);
+            stmt.setString(2, stdId);
+            stmt.setString(3, courseId);
+            stmt.executeUpdate();
 
 
             //ResultSet rs = stmt.executeQuery(query);
