@@ -22,6 +22,7 @@ public class lecturerMenu implements menu {
         System.out.println("2-)Enter Course ID and See absenteisms");
         System.out.println("3-)Check fee status of a student");
         System.out.println("4-)Edit Absentism //Not working now in version 3 it will be added");
+        System.out.println("5-)Go to Login Screen");
 
         makeMenuSelection();
     }
@@ -53,6 +54,9 @@ public class lecturerMenu implements menu {
                 }
                 editAbsentism();
                 printMenu();
+                break;
+            case 5:
+                mainMenu loginAgain = new mainMenu();
                 break;
             default:
                 System.out.println("There was a problem please make a selection again");

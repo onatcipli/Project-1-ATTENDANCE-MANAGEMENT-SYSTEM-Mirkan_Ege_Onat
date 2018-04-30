@@ -6,7 +6,7 @@ import Database.layerMySql;
 
 public class mainMenu implements menu {
 
-    String Id, pass, type;
+    public static String Id, pass, type;
     //Scanner scan = new Scanner(System.in);
     layerMySql sql = new layerMySql();
 
@@ -26,7 +26,6 @@ public class mainMenu implements menu {
         System.out.print("\tPass :  ");
         pass = scan.nextLine();
 
-
         try {
             type = sql.isValid(Id, pass);
             if (type == null) {
@@ -44,13 +43,15 @@ public class mainMenu implements menu {
     public void makeMenuSelection() {
         //System.out.println("make menu selection  -> " + type);
 
+
         if (type == null) {// if user can't login
             System.out.println("Your ID or Password is in correct please try again...");
             printMenu();
 
         } else if (type.equals("s")) {// This is will call student Menu
 
-            studentMenu menuStudent = new studentMenu();
+            studentMenu menuStudent = new studentMenu(Id);
+            //change to parameter constructor to get to student ID
 
         } else if (type.equals("t")) {// This is will call teacher Menu
 
@@ -61,6 +62,7 @@ public class mainMenu implements menu {
             adminMenu menuAdmin = new adminMenu();
 
         }
+
 
     }
 

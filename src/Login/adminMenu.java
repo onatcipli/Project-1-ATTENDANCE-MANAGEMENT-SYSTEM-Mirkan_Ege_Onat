@@ -20,6 +20,7 @@ public class adminMenu implements menu {
         System.out.println("2-)Add an teacher");
         System.out.println("3-)List all students");
         System.out.println("4-)List all teacher");
+        System.out.println("5-)Go to Login Screen");
 
 
         makeMenuSelection();
@@ -47,6 +48,9 @@ public class adminMenu implements menu {
             case 4:
                 printAllTeachers();
                 printMenu();
+                break;
+            case 5:
+                mainMenu loginAgain = new mainMenu();
                 break;
             default:
                 System.out.println("Your enter invalid menu number please enter again");
