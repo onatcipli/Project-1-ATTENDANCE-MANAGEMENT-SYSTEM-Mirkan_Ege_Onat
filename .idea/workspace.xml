@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca38c8e-453c-4469-b562-9f16309be261" name="Default" comment="">
+    <list default="true" id="0ca38c8e-453c-4469-b562-9f16309be261" name="Default" comment="Try to finish student interface and sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Database/lecturerSql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/adminMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/adminMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/lecturerMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/lecturerMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/mainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/mainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/Login/studentMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/Login/studentMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/attendanceManagement/database/adminSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/attendanceManagement/database/adminSql.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/adminSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/adminSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/layerMySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/layerMySql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/lecturerSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/lecturerSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/studentSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/studentSql.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login/adminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/adminMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login/lecturerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/lecturerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/mainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/mainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login/studentMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login/studentMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Database/layerMySqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Database/layerMySqlTest.java" afterDir="false" />
     </list>
@@ -20,6 +29,9 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/attendanceManagement$Main.ic" NAME="Main Coverage Results" MODIFIED="1524303486220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/attendanceManagement$layerMySqlTest.ic" NAME="layerMySqlTest Coverage Results" MODIFIED="1525264419912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Database.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -48,20 +60,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="attendancemanagement: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="attendancemanagement@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="attendancemanagement: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="admin: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="attendancemanagement@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="attendancemanagement: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="login: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -69,107 +67,102 @@
     <favorites_list name="attendanceManagement" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.35808823">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="lecturerSql.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Database/lecturerSql.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="25" column="25" selection-start-line="24" selection-end-line="27" />
-                  <folding>
-                    <element signature="method#printAllCoursesAbs#0;class#lecturerSql#0" />
-                    <element signature="method#editAbsentism#0;class#lecturerSql#0" />
-                    <element signature="e#2004#2071#0" />
-                    <element signature="method#feeStatus#0;class#lecturerSql#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lecturerMenu.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Login/lecturerMenu.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-419">
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
-                  <folding>
-                    <element signature="method#lecturerMenu#0;class#lecturerMenu#0" />
-                    <element signature="method#seeAbsentismWithCourseId#0;class#lecturerMenu#0" />
-                    <element signature="method#seeFeeStatus#0;class#lecturerMenu#0" />
-                    <element signature="method#editAbsentism#0;class#lecturerMenu#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="studentMenu.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-                  <folding>
-                    <element signature="method#studentMenu#0;class#studentMenu#0" />
-                    <element signature="method#studentMenu#1;class#studentMenu#0" />
-                    <element signature="method#printMenu#0;class#studentMenu#0" />
-                    <element signature="e#1627#1628#0" expanded="true" />
-                    <element signature="e#1670#1671#0" expanded="true" />
-                    <element signature="e#1706#1707#0" expanded="true" />
-                    <element signature="e#1724#1725#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="studentSql.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Database/studentSql.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="69" column="101" selection-start-line="69" selection-start-column="101" selection-end-line="69" selection-end-column="101" />
-                  <folding>
-                    <element signature="method#seeStatus#0;class#studentSql#0" />
-                    <element signature="method#checkMyFee#0;class#studentSql#0" />
-                    <element signature="e#0#60#1" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="absentism" pinned="false" current-in-tab="false">
-            <entry file="das://19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/schema/attendancemanagement/table/absentism">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="adminSql.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Database/adminSql.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="440">
-                  <caret line="50" column="79" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="50" selection-end-column="79" />
-                  <folding>
-                    <element signature="method#insertTeacher#0;class#adminSql#0" />
-                    <element signature="method#listTeacher#0;class#adminSql#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="adminSqlTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Database/adminSqlTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layerMySqlTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Database/layerMySqlTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="method#connect#0;class#layerMySqlTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentSql.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database/studentSql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="method#seeStatus#0;class#studentSql#0" />
+                <element signature="method#checkMyFee#0;class#studentSql#0" />
+                <element signature="method#checkAbsSql#0;class#studentSql#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lecturerSqlTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Database/lecturerSqlTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminSql.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database/adminSql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="method#listStudent#0;class#adminSql#0" />
+                <element signature="method#listTeacher#0;class#adminSql#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layerMySql.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+              <folding>
+                <element signature="method#connect#0;class#layerMySql#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lecturerSql.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database/lecturerSql.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="method#printAllCoursesAbs#0;class#lecturerSql#0" />
+                <element signature="method#editAbsenting#0;class#lecturerSql#0" />
+                <element signature="method#feeStatus#0;class#lecturerSql#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -190,6 +183,11 @@
       <find>stundent</find>
       <find>Stundent</find>
       <find>isValid</find>
+      <find>stdID</find>
+      <find>Go</find>
+      <find />
+      <find>checkAndConnect</find>
+      <find>editAbsentism</find>
     </findStrings>
     <replaceStrings>
       <replace>Teacher</replace>
@@ -202,6 +200,9 @@
       <replace>type</replace>
       <replace>printAllAbsWithCourseID</replace>
       <replace>Student</replace>
+      <replace />
+      <replace>isConnected</replace>
+      <replace>editAbsenting</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -236,18 +237,24 @@
         <option value="$PROJECT_DIR$/src/Login/menu.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/console_12.sql" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Database/adminSql.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/console.sql" />
-        <option value="$PROJECT_DIR$/src/Database/lecturerSql.java" />
         <option value="$PROJECT_DIR$/src/Database/lecturerSqlTest.java" />
         <option value="$PROJECT_DIR$/src/Database/layerMySqlTest.java" />
-        <option value="$PROJECT_DIR$/test/Database/layerMySqlTest.java" />
-        <option value="$PROJECT_DIR$/src/Login/adminMenu.java" />
-        <option value="$PROJECT_DIR$/src/Login/lecturerMenu.java" />
         <option value="$PROJECT_DIR$/src/Login/mainMenu.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/console_13.sql" />
+        <option value="$PROJECT_DIR$/test/testSuite.java" />
+        <option value="$PROJECT_DIR$/src/Login/adminMenu.java" />
+        <option value="$PROJECT_DIR$/src/Database/adminSql.java" />
+        <option value="$PROJECT_DIR$/test/Login/studentMenuTest.java" />
         <option value="$PROJECT_DIR$/src/Login/studentMenu.java" />
         <option value="$PROJECT_DIR$/src/Database/studentSql.java" />
+        <option value="$PROJECT_DIR$/test/Database/studentSqlTest.java" />
+        <option value="$PROJECT_DIR$/src/Database/lecturerSql.java" />
+        <option value="$PROJECT_DIR$/src/Login/lecturerMenu.java" />
+        <option value="$PROJECT_DIR$/test/Database/lecturerSqlTest.java" />
+        <option value="$PROJECT_DIR$/test/Database/adminSqlTest.java" />
+        <option value="$PROJECT_DIR$/src/Database/layerMySql.java" />
+        <option value="$PROJECT_DIR$/test/Database/layerMySqlTest.java" />
       </list>
     </option>
   </component>
@@ -261,7 +268,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -271,8 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,8 +299,13 @@
             <path>
               <item name="attendanceManagement" type="b2602c69:ProjectViewProjectNode" />
               <item name="attendanceManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="attendanceManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="attendanceManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="attendanceManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -305,7 +315,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,15 +331,16 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LastVersiyon2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TaxiApp-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Login" />
       <recent name="Database" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -346,13 +359,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.layerMySqlTest.isValid">
+    <configuration name="All in attendanceManagement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="attendanceManagement" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="layerMySqlTest.isConnected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attendanceManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Database" />
+      <option name="MAIN_CLASS_NAME" value="Database.layerMySqlTest" />
+      <option name="METHOD_NAME" value="isConnected" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="layerMySqlTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="attendanceManagement" />
@@ -377,31 +423,66 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="lecturerSqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attendanceManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="PACKAGE_NAME" value="Database" />
+      <option name="MAIN_CLASS_NAME" value="Database.lecturerSqlTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="lecturerSqlTest.printAllAbsWithCourseID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="attendanceManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Database" />
+      <option name="MAIN_CLASS_NAME" value="Database.lecturerSqlTest" />
+      <option name="METHOD_NAME" value="printAllAbsWithCourseID" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.lecturerSqlTest" />
+      <item itemvalue="JUnit.lecturerSqlTest.printAllAbsWithCourseID" />
+      <item itemvalue="JUnit.All in attendanceManagement" />
+      <item itemvalue="JUnit.layerMySqlTest.isConnected" />
       <item itemvalue="JUnit.layerMySqlTest.isValid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.layerMySqlTest.isValid" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.layerMySqlTest.isConnected" />
+        <item itemvalue="JUnit.All in attendanceManagement" />
+        <item itemvalue="JUnit.lecturerSqlTest.printAllAbsWithCourseID" />
+        <item itemvalue="JUnit.lecturerSqlTest" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +514,13 @@
       <workItem from="1524662160383" duration="292000" />
       <workItem from="1524662794347" duration="4182000" />
       <workItem from="1525107620559" duration="180000" />
-      <workItem from="1525112762393" duration="7622000" />
+      <workItem from="1525112762393" duration="7809000" />
+      <workItem from="1525161790048" duration="1150000" />
+      <workItem from="1525252353024" duration="3272000" />
+      <workItem from="1525263132268" duration="6588000" />
+      <workItem from="1525288855574" duration="600000" />
+      <workItem from="1525327709341" duration="630000" />
+      <workItem from="1525587050663" duration="7453000" />
     </task>
     <task id="LOCAL-00001" summary="try to commit on inteliji">
       <created>1524305844063</created>
@@ -477,34 +564,50 @@
       <option name="project" value="LOCAL" />
       <updated>1525107682071</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Try to finish student interface and sql">
+      <created>1525122026041</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525122026041</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 23m 49s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="lecturerSqlTest_editAbsenting - 2018.05.06 at 11h 05m 18s.xml">
+      <configuration name="lecturerSqlTest.editAbsenting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 24m 22s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="lecturerSqlTest_editAbsenting - 2018.05.06 at 11h 05m 30s.xml">
+      <configuration name="lecturerSqlTest.editAbsenting" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 29m 25s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="lecturerSqlTest - 2018.05.06 at 11h 07m 09s.xml">
+      <configuration name="lecturerSqlTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 29m 47s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="lecturerSqlTest_printAllAbsWithCourseID - 2018.05.06 at 11h 12m 10s.xml">
+      <configuration name="lecturerSqlTest.printAllAbsWithCourseID" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 29m 54s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="lecturerSqlTest_printAllAbsWithCourseID - 2018.05.06 at 11h 12m 50s.xml">
+      <configuration name="lecturerSqlTest.printAllAbsWithCourseID" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 31m 12s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="All_in_attendanceManagement - 2018.05.06 at 11h 13m 36s.xml">
+      <configuration name="All in attendanceManagement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="layerMySqlTest_isValid - 2018.04.25 at 17h 35m 26s.xml">
-      <configuration name="layerMySqlTest.isValid" configurationId="JUnit" />
+    <history-entry file="All_in_attendanceManagement - 2018.05.06 at 11h 14m 31s.xml">
+      <configuration name="All in attendanceManagement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_attendanceManagement - 2018.05.06 at 11h 16m 16s.xml">
+      <configuration name="All in attendanceManagement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_attendanceManagement - 2018.05.06 at 11h 19m 53s.xml">
+      <configuration name="All in attendanceManagement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_attendanceManagement - 2018.05.06 at 11h 20m 25s.xml">
+      <configuration name="All in attendanceManagement" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69049000" />
+    <option name="totallyTimeSpent" value="88929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,10 +626,10 @@
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="5" weight="0.32995737" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.49837664" visible="true" weight="0.13006397" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49518305" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -536,62 +639,25 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" x="291" y="176" width="1112" height="723" id="Run" order="2" visible="true" weight="0.3148148" />
+      <window_info active="true" anchor="bottom" x="291" y="176" width="1112" height="723" id="Run" order="2" visible="true" weight="0.43464053" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3148148" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.50481695" side_tool="true" visible="true" weight="0.17697228" />
       <window_info anchor="bottom" id="Floobits" order="12" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.15458423" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info id="Learn" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="3" sideWeight="0.5007949" side_tool="true" weight="0.108208954" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.14498934" />
-      <window_info id="Learn" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Favorites" order="3" sideWeight="0.5007949" side_tool="true" weight="0.108208954" />
-      <window_info anchor="right" id="Flutter Inspector" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32897604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5016234" side_tool="true" weight="0.17324094" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.4990366" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" x="291" y="176" width="1112" height="723" id="Run" order="2" weight="0.3148148" />
-      <window_info anchor="bottom" id="Database Console" order="7" visible="true" weight="0.32897604" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Flutter Inspector" order="4" />
-      <window_info id="Favorites" order="3" sideWeight="0.5007949" side_tool="true" weight="0.108208954" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32897604" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.14498934" />
-      <window_info anchor="right" id="Flutter Outline" order="5" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3148148" />
-      <window_info anchor="right" id="Maven Projects" order="10" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Learn" order="6" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.49837664" visible="true" weight="0.13006397" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="bottom" id="Floobits" order="12" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5016234" side_tool="true" weight="0.17324094" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.32897604" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -643,66 +709,15 @@
     <MESSAGE value="solving some problems" />
     <MESSAGE value="addin testing to project" />
     <MESSAGE value="addin testing to project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="addin testing to project 2" />
+    <MESSAGE value="Try to finish student interface and sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to finish student interface and sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/Database/layerMySqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/schema/attendancemanagement/table/absentism">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User/lecturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/console_6.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -895,35 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/attendanceManagement/Login/lecturerMenu.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Database/layerMySqlTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="method#connect#0;class#layerMySql#0" />
-            <element signature="method#checkAndConnect#0;class#layerMySql#0" />
-            <element signature="method#isValid#0;class#layerMySql#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,31 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login/mainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
-          <folding>
-            <element signature="method#mainMenu#0;class#mainMenu#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://19ad9a30-d2bb-4fcc-b73a-c6d56d8f1712/schema/attendancemanagement/table/student">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/adminSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="79" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="50" selection-end-column="79" />
-          <folding>
-            <element signature="method#insertTeacher#0;class#adminSql#0" />
-            <element signature="method#listTeacher#0;class#adminSql#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,12 +938,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/deneme.java" />
+    <entry file="file://$PROJECT_DIR$/attendanceManagement.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Login/adminMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="e#81#99#0" />
             <element signature="method#printMenu#0;class#adminMenu#0" />
             <element signature="method#makeMenuSelection#0;class#adminMenu#0" />
             <element signature="method#addStudent#0;class#adminMenu#0" />
@@ -983,15 +955,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login/lecturerMenu.java">
+    <entry file="file://$PROJECT_DIR$/test/Login/studentMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="136">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
-            <element signature="method#lecturerMenu#0;class#lecturerMenu#0" />
-            <element signature="method#seeAbsentismWithCourseId#0;class#lecturerMenu#0" />
-            <element signature="method#seeFeeStatus#0;class#lecturerMenu#0" />
-            <element signature="method#editAbsentism#0;class#lecturerMenu#0" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/mainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="method#checkID#0;class#mainMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <folding>
+            <element signature="method#studentMenu#0;class#studentMenu#0" />
+            <element signature="method#studentMenu#1;class#studentMenu#0" />
+            <element signature="method#printMenu#0;class#studentMenu#0" />
+            <element signature="method#makeMenuSelection#0;class#studentMenu#0" />
+            <element signature="method#checkAbsentism#0;class#studentMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/studentSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="method#seeStatus#0;class#studentSql#0" />
+            <element signature="method#checkMyFee#0;class#studentSql#0" />
+            <element signature="method#checkAbsSql#0;class#studentSql#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Database/studentSqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/adminSql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="method#listStudent#0;class#adminSql#0" />
+            <element signature="method#listTeacher#0;class#adminSql#0" />
           </folding>
         </state>
       </provider>
@@ -1003,43 +1040,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/lecturerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Database/lecturerSql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="25" selection-start-line="24" selection-end-line="27" />
+        <state relative-caret-position="221">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
             <element signature="method#printAllCoursesAbs#0;class#lecturerSql#0" />
-            <element signature="method#editAbsentism#0;class#lecturerSql#0" />
-            <element signature="e#2004#2071#0" />
+            <element signature="method#editAbsenting#0;class#lecturerSql#0" />
             <element signature="method#feeStatus#0;class#lecturerSql#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Login/studentMenu.java">
+    <entry file="file://$PROJECT_DIR$/test/Database/adminSqlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="408">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <element signature="method#studentMenu#0;class#studentMenu#0" />
-            <element signature="method#studentMenu#1;class#studentMenu#0" />
-            <element signature="method#printMenu#0;class#studentMenu#0" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/studentSql.java">
+    <entry file="file://$PROJECT_DIR$/test/Database/lecturerSqlTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="69" column="101" selection-start-line="69" selection-start-column="101" selection-end-line="69" selection-end-column="101" />
+        <state relative-caret-position="250">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/layerMySql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding>
-            <element signature="method#seeStatus#0;class#studentSql#0" />
-            <element signature="method#checkMyFee#0;class#studentSql#0" />
-            <element signature="e#0#60#1" />
+            <element signature="method#connect#0;class#layerMySql#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Database/layerMySqlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="method#connect#0;class#layerMySqlTest#0" />
           </folding>
         </state>
       </provider>
@@ -1061,7 +1124,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

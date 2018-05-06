@@ -6,17 +6,18 @@ import java.sql.ResultSet;
 public class adminSql extends layerMySql {
 
     public adminSql() {
-        super.checkAndConnect();
+        super.isConnected();
     }
 
-    public void insertStudent(String[] course) {
-        checkAndConnect();
-
+    public void insertStudent(String[] course) throws Exception {
+        isConnected();
+        if (course.length != 11) {
+            throw new Exception();
+        }
         try {
             String query = "insert into student values (?,?,?,?,?,?,?,?,?,?,?)";
 
             PreparedStatement stmt = conn.prepareStatement(query);
-
 
             for (int i = 0; i < 11; i++) {
                 stmt.setString(1 + i, course[i]);
@@ -60,7 +61,10 @@ public class adminSql extends layerMySql {
 
     public void insertTeacher(String[] teacher) {
 
-        checkAndConnect();
+        isConnected();
+        if (teacher.length != 2) {
+            throw new ArrayIndexOutOfBoundsException();
+        }
 
         try {
             String query = "insert into lecturer values (?,?)";

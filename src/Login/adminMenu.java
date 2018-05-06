@@ -3,7 +3,6 @@ package Login;
 import Database.*;
 
 public class adminMenu implements menu {
-    //edit alittle bit
     //git remote https://github.com/serhatuzunbayir/Project-1-ATTENDANCE-MANAGEMENT-SYSTEM-Mirkan_Ege_Onat.git --add --push origin https://github.com/serhatuzunbayir/Project-1-ATTENDANCE-MANAGEMENT-SYSTEM-Mirkan_Ege_Onat.git
 
     adminSql sqlAdmin = new adminSql();
@@ -20,7 +19,7 @@ public class adminMenu implements menu {
         System.out.println("2-)Add an teacher");
         System.out.println("3-)List all students");
         System.out.println("4-)List all teacher");
-        System.out.println("5-)Go to Login Screen");
+        System.out.println("5-)Log out");
 
 
         makeMenuSelection();
@@ -88,7 +87,11 @@ public class adminMenu implements menu {
         System.out.print("Course 8    : ");
         infoForStudents[10] = scan.nextLine();
 
-        sqlAdmin.insertStudent(infoForStudents);
+        try {
+            sqlAdmin.insertStudent(infoForStudents);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
     }

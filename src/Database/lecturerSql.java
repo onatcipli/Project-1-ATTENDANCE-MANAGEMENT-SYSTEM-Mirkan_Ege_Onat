@@ -8,11 +8,16 @@ import java.sql.Statement;
 public class lecturerSql extends layerMySql {
 
     public lecturerSql() {
-        checkAndConnect();
+        super.isConnected();
     }
 
-    public void printAllAbsWithCourseID(String courseId) {
-        checkAndConnect();
+    public void printAllAbsWithCourseID(String courseId) throws Exception {
+        isConnected();
+        int lengthCourseId = courseId.length();
+
+        if (lengthCourseId > 20) {
+            throw new Exception();
+        }
 
         String query;
         query = "select * from absentism where CourseID='" + courseId + "'";
@@ -37,7 +42,7 @@ public class lecturerSql extends layerMySql {
     }
 
     public void printAllCoursesAbs() {
-        checkAndConnect();
+        isConnected();
 
         String query = "select CourseID,StudentID,Abs from absentism order by CourseID asc ,StudentID asc";
 
@@ -60,8 +65,8 @@ public class lecturerSql extends layerMySql {
 
     }
 
-    public void editAbsentism(String stdId, String courseId, String changeAbs) {
-        checkAndConnect();
+    public void editAbsenting(String stdId, String courseId, String changeAbs) throws Exception {
+        isConnected();
 
         //String query1 = "select Abs from absentism where StudentID='" + courseId + "'";
         /*String query = "update absentism\n" +
@@ -72,7 +77,11 @@ public class lecturerSql extends layerMySql {
         //       "where StudentID = 2018001 and CourseID = 'SE 311' ";
 
         String query = "update absentism set Abs = ? where StudentID = ? and CourseID = ? ";
+        int checkAbs = Integer.parseInt(changeAbs);
 
+        if (checkAbs > 100) {
+            throw new Exception();
+        }
 
         try {
             PreparedStatement stmt = conn.prepareStatement(query);
@@ -93,7 +102,7 @@ public class lecturerSql extends layerMySql {
     }
 
     public void feeStatus() {
-        checkAndConnect();
+        isConnected();
 
         String query = "select ID,FeeStatus from student order by FeeStatus asc";
 

@@ -24,10 +24,10 @@ public class studentMenu implements menu {
         System.out.println("\t\t*** Student Menu ***");
         System.out.println("Please chose your action from the menu!");
         System.out.println("1-)See my status");
-        System.out.println("2-)See grades and scores");
+        System.out.println("2-)See grades and scores // maybe It will be added later");
         System.out.println("3-)Check fee status");
         System.out.println("4-)Check absentism");
-        System.out.println("5-)Go to Login Screen");
+        System.out.println("5-)Log out");
 
 
         makeMenuSelection();

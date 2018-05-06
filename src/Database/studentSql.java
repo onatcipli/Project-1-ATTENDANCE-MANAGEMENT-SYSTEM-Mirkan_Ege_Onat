@@ -6,17 +6,19 @@ import java.sql.Statement;
 public class studentSql extends layerMySql {
 
     public studentSql() {
-        super.checkAndConnect();
+        super.isConnected();
     }
 
     public void seeStatus(String stdID) {
-        checkAndConnect();
+        isConnected();
 
         String query = "Select * from student where ID ='" + stdID + "'";
+
 
         try {
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(query);
+
 
             while (rs.next()) {
                 System.out.println("My Status ");
@@ -42,7 +44,7 @@ public class studentSql extends layerMySql {
     }
 
     public void checkMyFee(String stdID) {
-        checkAndConnect();
+        isConnected();
 
         String query = "Select Name,ID,FeeStatus from student where ID ='" + stdID + "'";
 
@@ -65,7 +67,7 @@ public class studentSql extends layerMySql {
     }
 
     public void checkAbsSql(String stdID) {
-        checkAndConnect();
+        isConnected();
 
         String query = "select * from absentism where StudentID='" + stdID + "' order by CourseID asc";
 
